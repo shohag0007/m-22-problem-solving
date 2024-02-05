@@ -9,7 +9,7 @@ function sortMaker(arr){
     const[a,b] = arr;
 // 3. if any element is negative return "invalid input".
 
-    if(a<0 || b<0){
+    if(a < 0 || b < 0){
         return 'Invalid Input';
     }
 // 4. if elements are equal, then return 'equal'.
@@ -25,4 +25,10 @@ else{
 }
 }
 
+console.log(sortMaker([2,3]));
+console.log(sortMaker([4,2]));
 console.log(sortMaker([4,4]));
+console.log(sortMaker([1,2]));
+console.log(sortMaker([4,-2]));
+
+
